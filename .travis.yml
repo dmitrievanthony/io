@@ -1,6 +1,10 @@
 dist: trusty
 sudo: required
 
+os:
+  - windows
+  - linux
+
 env:
   - BAZEL_OS=linux
     BAZEL_VERSION=0.17.2
